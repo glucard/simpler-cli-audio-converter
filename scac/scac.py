@@ -6,7 +6,7 @@ from pydub import AudioSegment
 
 def convert_audio(input_path:str, output_path:str, source_format:str, target_format:str):
     audio = AudioSegment.from_file(input_path, codec=source_format)
-    audio.export(output_path, format=target_format)
+    audio.export(f"{output_path}.{target_format}", format=target_format)
 
 def recursive_convert_dir(input_path: str, output_path: str, source_format:str, target_format:str):
     if os.path.isdir(input_path):
