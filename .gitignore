@@ -1,3 +1,6 @@
 /.venv
 /target
 /wav
+/build
+
+*.egg-info

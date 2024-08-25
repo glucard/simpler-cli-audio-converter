@@ -5,12 +5,29 @@ Simplifier audio convertion on folders struct
 ## Requirements
 
 - ffmpeg
-- python
+- Python
+- Git
+
+## Installation
+
+### Linux/WSL
+
+1. Install ffmpeg:
+    ```bash
+    sudo apt update && sudo apt upgrade
+    sudo apt install ffmpeg
+    ```
+2. Install __SCAC__ repository:
+    ```bash
+    git clone https://github.com/glucard/simpler-cli-audio-converter
+    cd glucard/simpler-cli-audio-converter
+    pip install .
+    ```
 
 ## Usage
 
 ### Linux/WSL
 
 ```bash
-python3 scac "path/to/source_audios_folder" <target_format> "path/to/converted_audios_dest" 
+python3 scac "path/to/source_audios_folder" "path/to/converted_audios_dest" --sf "mp3" --tf "wav"
 ```
