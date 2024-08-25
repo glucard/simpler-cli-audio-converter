@@ -29,5 +29,5 @@ Simplifier audio convertion on folders struct
 ### Linux/WSL
 
 ```bash
-python3 scac "path/to/source_audios_folder" "path/to/converted_audios_dest" --sf "mp3" --tf "wav"
+scac "path/to/source_audios_folder" "path/to/converted_audios_dest" --sf "mp3" --tf "wav"
 ```
