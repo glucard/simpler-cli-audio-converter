@@ -15,7 +15,7 @@ setup(
     ],
     author="George Zambonin",
     description="A simple audio converter CLI tool.",
-    long_description=open('README.md').read(),
+    long_description=open('readme.md').read(),
     long_description_content_type='text/markdown',
     url="https://github.com/glucard/simpler-cli-audio-converter",  # Optional
     classifiers=[

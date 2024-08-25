@@ -20,7 +20,7 @@ Simplifier audio convertion on folders struct
 2. Install __SCAC__ repository:
     ```bash
     git clone https://github.com/glucard/simpler-cli-audio-converter
-    cd glucard/simpler-cli-audio-converter
+    cd simpler-cli-audio-converter
     pip install .
     ```
 
